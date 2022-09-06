@@ -5,7 +5,7 @@ require: city/city.sc
 
 theme: /
 
-    state: Start || modal = true
+    state: Правила || modal = true
         q!: $regex</start>
         intent!: /Начать Игру
         script:

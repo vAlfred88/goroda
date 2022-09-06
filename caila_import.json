@@ -1,7 +1,7 @@
 {
   "project" : {
-    "id" : "goroda-711408-YfW",
-    "name" : "goroda-711408-YfW",
+    "id" : "goroda_2-711408-xDU",
+    "name" : "goroda_2-711408-xDU",
     "folder" : "/jaicp"
   },
   "settings" : {
@@ -16,7 +16,7 @@
     "business" : false
   },
   "intents" : [ {
-    "id" : 445434,
+    "id" : 455172,
     "path" : "/Пользователь",
     "enabled" : true,
     "businessShared" : false,
@@ -34,7 +34,7 @@
     } ],
     "patterns" : [ ]
   }, {
-    "id" : 445435,
+    "id" : 455173,
     "path" : "/Компьютер",
     "enabled" : true,
     "businessShared" : false,
@@ -54,7 +54,7 @@
     } ],
     "patterns" : [ ]
   }, {
-    "id" : 445846,
+    "id" : 455174,
     "path" : "/Начать игру",
     "enabled" : true,
     "businessShared" : false,
@@ -70,7 +70,7 @@
     } ],
     "patterns" : [ ]
   }, {
-    "id" : 445436,
+    "id" : 455175,
     "path" : "/Завершить игру",
     "enabled" : true,
     "businessShared" : false,
