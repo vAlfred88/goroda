@@ -1,0 +1,93 @@
+{
+  "project" : {
+    "id" : "goroda-711408-YfW",
+    "name" : "goroda-711408-YfW",
+    "folder" : "/jaicp"
+  },
+  "settings" : {
+    "language" : "ru",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "Europe/Moscow",
+    "extendedSettings" : {
+      "tokenizerEngine" : "default"
+    },
+    "businessShared" : false,
+    "business" : false
+  },
+  "intents" : [ {
+    "id" : 445434,
+    "path" : "/Пользователь",
+    "enabled" : true,
+    "businessShared" : false,
+    "business" : false,
+    "phrases" : [ {
+      "text" : "человек"
+    }, {
+      "text" : "пользователь"
+    }, {
+      "text" : "не ты"
+    }, {
+      "text" : "юзер"
+    }, {
+      "text" : "я"
+    } ],
+    "patterns" : [ ]
+  }, {
+    "id" : 445435,
+    "path" : "/Компьютер",
+    "enabled" : true,
+    "businessShared" : false,
+    "business" : false,
+    "phrases" : [ {
+      "text" : "ты"
+    }, {
+      "text" : "компьютер"
+    }, {
+      "text" : "комп"
+    }, {
+      "text" : "не я"
+    }, {
+      "text" : "железяка"
+    }, {
+      "text" : "железка"
+    } ],
+    "patterns" : [ ]
+  }, {
+    "id" : 445846,
+    "path" : "/Начать игру",
+    "enabled" : true,
+    "businessShared" : false,
+    "business" : false,
+    "phrases" : [ {
+      "text" : "включи города"
+    }, {
+      "text" : "запусти города"
+    }, {
+      "text" : "давай поиграем в города"
+    }, {
+      "text" : "сыграть в города"
+    } ],
+    "patterns" : [ ]
+  }, {
+    "id" : 445436,
+    "path" : "/Завершить игру",
+    "enabled" : true,
+    "businessShared" : false,
+    "business" : false,
+    "phrases" : [ {
+      "text" : "стоп"
+    }, {
+      "text" : "надоело"
+    }, {
+      "text" : "я устал"
+    }, {
+      "text" : "хватит"
+    }, {
+      "text" : "прекрати"
+    } ],
+    "patterns" : [ ]
+  } ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ]
+}
